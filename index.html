@@ -35,7 +35,7 @@
             <div id="header" class="header">
          <nav class="navbar navbar-expand-lg navbar-light text-capitalize">
             <div class="container">
-               <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="#" /></a>
+               <!--  <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt="#" /></a> -->
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
@@ -74,15 +74,13 @@
                   <img class="d-block w-100" src="imgs/slider1.jpg" alt="slider_img">
                   <div class="ovarlay_slide_cont">
                      <h2>Dance<br>to<br>the<br>beat</h2>
-                     <a class="blue_bt" href="#">Our Service</a>
-                  </div>
+                   </div>
                </div>
                <div class="carousel-item">
                   <img class="d-block w-100" src="imgs/slider1.jpg" alt="slider_img">
                   <div class="ovarlay_slide_cont">
                      <h2>Dance<br>to<br>the<br>beat</h2>
-                     <a class="blue_bt" href="#">Our Service</a>
-                  </div>
+                   </div>
                </div>
             </div>
             <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
@@ -108,7 +106,22 @@
          <div class="container">
             <div class="row">
                <div class="col-md-4">
-                  <p>Indian classical music and dance are not just for entertainment- they are design to elevate your conciousness !! <br> <a href="https://www.youtube.com/watch?v=JNZw3GPYVwo" target="_blank">For more videos</a></p>
+                  <div class="text_white">Indian classical music and dance are not just for entertainment- they are design to elevate your conciousness !!</div>
+                  <br>
+                     <div><a href="https://www.youtube.com/watch?v=JNZw3GPYVwo" target="_blank" class="btn btn-info" role="button" aria-pressed="true">For more youtube videos</a>
+                     </div>
+                   </p>
+                  <div>
+                     <h3 class="text_wheat">Categories</h3>
+                     <div class="text_white">
+                        <ul class="list-unstyled">
+                           <li>Bollywood group dance classes for kids/adults.</li>
+                           <li>Event choreography for Birthdays/ Cultural Event/ Functions/ Weddings.</li>   
+                        </ul>
+                        </div>
+                     <div class="text_white"></div>  
+                  </div>
+                  
                </div>
                <div class="col-md-8 video_img">
                   <img class="img-responsive" src="imgs/v1.jpg" alt="#" />
@@ -129,42 +142,38 @@
                <div class="col-md-4">
                   <div class="full dance_form_name">
                      <img src="imgs/d1.jpg" alt="#" />
-                     <h4 style="margin-top: 155px;">Bollywood</h4>
+                     <h4 style="margin-top: 240px; font-size: xx-large;">Bollywood Dance</h4>
                   </div>
                </div>
 
                <div class="col-md-4">
                   <div class="full dance_form_name" style="height: 535px"/>
                      <img src="imgs/d2.jpg" alt="#" />
-                     <h4 style="margin-top: 155px;">Classical</h4>
-                  </div>
-               </div>
-
-               <div class="col-md-4">
-                  <div class="full dance_form_name" style="height: 535px">
-                     <img src="imgs/d1.jpg" alt="#" />
-                     <h4 style="margin-top: 155px;">Group Dance</h4>
+                     <h4 style="margin-top: 240px; font-size: xx-large;">Classical Dance</h4>
                   </div>
                </div>
 
                <div class="col-md-4">
                   <div class="full dance_form_name" style="height: 535px">
                      <img src="imgs/d3.jpg" alt="#" />
-                     <h4 style="margin-top: 155px;">Dancers</h4>
+                     <h4 style="margin-top: 240px; font-size: xx-large;">Wedding Choreography</h4>
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class="full dance_form_name" style="height: 535px">
+                     <img src="imgs/group2.webp" alt="#" style="height: 535px" />
+                     <h4 style="margin-top: 240px; font-size: xx-large;">Group Dance</h4>
                   </div>
                </div>
 
-               <div class="col-md-4">
-                  <div class="full dance_form_name" style="height: 535px">
-                     <img src="imgs/d4.jpg" alt="#" />
-                     <h4 style="margin-top: 155px;">Dancing</h4>
-                  </div>
-               </div>
+             
+
+            
 
                <div class="col-md-4">
                   <div class="full dance_form_name" style="height: 535px">
                      <img src="imgs/d5.jpg" alt="#" />
-                     <h4 style="margin-top: 155px;">Girl</h4>
+                     <h4 style="margin-top: 240px; font-size: xx-large;">Events Choreography</h4>
                   </div>
                </div>
             
@@ -232,7 +241,8 @@
                         <input type="text" placeholder="Phone Number" />
                         <input type="email" placeholder="Email" />
                         <textarea placeholder="Message"></textarea>
-                        <input type="submit" value="Send" onclick="sendEmail()">
+                        <input type="submit" value="Send" onclick="sendEmail()" style="text-align:right;"/>
+                       
                      </form>
                   </div>
                </div>
@@ -268,11 +278,7 @@
                
                <div class="col-lg-3 col-md-6 col-12">
                   <div class="item">
-                     <h4>Newsletter</h4>
-                     <form class="form_newsletter">
-                        <input type="Email" placeholder="Enter your Email" name="#" />
-                        <button>Subscribe</button>
-                     </form>
+                    <form></form>
                   </div>
                   <div class="item social_icon">
                      <ul>
@@ -286,14 +292,14 @@
 
                <div class="col-lg-3 col-md-6 col-12">
                   <div class="footer_blog_section" style="margin-top: 55px;">
-                     <img class="img-responsive" src="imgs/footer_logo.png" alt="#" />
+                   <!-- <img class="img-responsive" src="imgs/footer_logo.png" alt="#" />--> 
                   </div>
                </div>
 
             </div>
          </div>
          <div class="copyright text-center">
-            <p>Copyright © 2019 Designed by <a href="https://html.design">Free Html Templates</a>. All rights reserved</p>
+            <p> <a href=""></a></p>
          </div>
       </footer>
       <script src="js/jquery-3.3.1.min.js"></script>
